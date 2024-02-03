@@ -21,3 +21,11 @@
  .text-box>p {
      color: black;
  }
+
+ caption+thead {
+     color: blue;
+ }
+
+ tbody tr {
+     color: chocolate;
+ }
