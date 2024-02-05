@@ -17,3 +17,52 @@
 div+h3+p {
     color: green;
 }
+
+.list :last-child {
+    background-color: blue;
+}
+
+.list :first-child {
+    background-color: red;
+}
+
+.list :nth-child(2) {
+    background-color: bisque;
+}
+
+.list :nth-child(3) {
+    background-color: aqua;
+}
+
+.list :nth-child(4) {
+    background-color: wheat;
+}
+
+thead {
+    background-color: brown;
+}
+
+.list :hover :first-child {
+    background-color: tomato;
+    color: white;
+}
+
+.list :hover :last-child {
+    background-color: tomato;
+    color: white;
+}
+
+.list :hover :nth-child(2) {
+    background-color: tomato;
+    color: white;
+}
+
+.list :hover :nth-child(3) {
+    background-color: tomato;
+    color: white;
+}
+
+.list :hover :nth-child(4) {
+    background-color: tomato;
+    color: white;
+}
