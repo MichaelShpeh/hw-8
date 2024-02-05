@@ -10,10 +10,10 @@
     color: red;
 }
 
-div+h3+p {
-    color: green;
-}
-
 .text-box :first-child {
     color: pink;
+}
+
+div+h3+p {
+    color: green;
 }
